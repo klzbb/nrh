@@ -1,0 +1,41 @@
+{
+  "name": "vue-elm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open --mode dev",
+    "build": "vue-cli-service build --mode production",
+    "pro": "vue-cli-service build --mode pro",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.3.2",
+    "fastclick": "^1.0.6",
+    "lib-flexible": "^0.3.2",
+    "nprogress": "^0.2.0",
+    "vant": "^2.11.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "axios-mock-adapter": "^1.17.0",
+    "babel-eslint": "^10.0.3",
+    "compression-webpack-plugin": "^6.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "mockjs": "^1.1.0",
+    "node-sass": "^4.12.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^8.0.0",
+    "svg-sprite-loader": "4.1.3",
+    "svgo": "1.2.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
