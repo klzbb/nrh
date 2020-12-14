@@ -10,12 +10,12 @@ import store from '@/store/index.js'
 
 const ua = window.navigator
 
-let sys = {
+const sys = {
   type: '', // 系统型号 ios / Android / pc
   browser: {}
 }
 
-let appversion = ua.appVersion.toLocaleLowerCase()
+const appversion = ua.appVersion.toLocaleLowerCase()
 if (appversion.indexOf('windows phone') !== -1) {
   sys.type = 'pc'
 } else if (appversion.indexOf('iphone') !== -1) {
@@ -28,8 +28,8 @@ if (appversion.indexOf('windows phone') !== -1) {
 
 const browser = {
   versions: function () {
-    let u = navigator.userAgent
-    let ua = navigator.userAgent.toLowerCase()
+    const u = navigator.userAgent
+    const ua = navigator.userAgent.toLowerCase()
     return { // 移动终端浏览器版本信息
       trident: u.indexOf('Trident') > -1, // IE内核
       presto: u.indexOf('Presto') > -1, // opera内核
