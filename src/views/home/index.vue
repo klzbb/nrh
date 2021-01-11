@@ -5,7 +5,10 @@
 </template>
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  mounted () {
+    console.log('jenkins-1')
+  }
 }
 </script>
 <style lang="scss">
