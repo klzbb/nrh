@@ -7,7 +7,7 @@
 export default {
   name: 'Home',
   mounted () {
-    console.log('jenkins-1')
+    console.log('jenkins-2')
   }
 }
 </script>
